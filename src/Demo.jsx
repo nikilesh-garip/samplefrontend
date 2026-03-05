@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:8080';
+const API_BASE_URL = 'https://samplebackend-r05s.onrender.com';
 
 function Home() {
   const [message, setMessage] = useState('');
